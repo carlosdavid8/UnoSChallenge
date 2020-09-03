@@ -20,6 +20,7 @@ Mines File (space separated) with values:
 (x, y, r) - where x is x coordinate, y is y coordinate and r is blast radius
 
 Example:
+
   1   2  53
   
 -32  40 100
