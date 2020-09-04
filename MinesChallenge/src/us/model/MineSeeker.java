@@ -55,7 +55,7 @@ public class MineSeeker {
 		pivot.setX(m.get(0).getX());
 		pivot.setY(m.get(0).getY());
 		pivot.setBlastRadius(m.get(0).getBlastRadius());
-
+		//removing pivot from ArrayList
 		m.remove(0);
 
 		for (int i = 0; i < m.size(); i++) {
