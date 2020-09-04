@@ -31,7 +31,7 @@ Example:
 
 Solution
 
-*src\us\util\LoadUtil - this Class with the method loadInfoFromFile allow to load the coordenates of the mines from a file.
+*src\us\util\LoadUtil - this Class allow to load the coordenates of the mines from a file, providing the static static method loadInfoFromFile.
 
 *src\us\model\MineSeeker - main class of the solution, you need to create an instance of this class in following way.
 
