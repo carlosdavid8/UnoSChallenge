@@ -92,10 +92,10 @@ public class MineSeeker {
 	}
 
 	public static void main(String[] args) throws IOException {
+		
 		ArrayList<Integer> myList = new ArrayList<Integer>();
-		LoadUtil load = new LoadUtil();
 		// loading the information from file
-		myList = load.loadInfoFromFile("src/mines.txt");
+		myList = LoadUtil.loadInfoFromFile("src/mines.txt");
 		MineSeeker seek = new MineSeeker();
 		seek.calculateMaximumExplosion(myList);
 
