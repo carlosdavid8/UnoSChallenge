@@ -31,7 +31,8 @@ Example:
 
 Solution
 
-*src\us\util\LoadUtil - this Class with the method loadInfoFromFile allow to load the coordenates of the mines from a file 
+*src\us\util\LoadUtil - this Class with the method loadInfoFromFile allow to load the coordenates of the mines from a file
+
 *src\us\model\MineSeeker - main class of the solution, you need to create an instance of this class in following way
 
     ArrayList<Integer> myList = new ArrayList<Integer>();
@@ -41,5 +42,6 @@ Solution
 		seek.calculateMaximumExplosion(myList);
     
  *src\us\test - this package contains the unit tests
+ 
  *src\us\model\Mine - POJO for Mine Objects
  
