@@ -43,6 +43,7 @@ public class MineSeeker {
 			}
 		} else {
 			System.out.println("please put more than 1 Mine in the File");
+			return mineList.size();
 		}
 	return max;
 
