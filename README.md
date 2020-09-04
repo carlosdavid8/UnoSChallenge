@@ -28,3 +28,18 @@ Example:
  10  15  25
  
 -15 -15 200
+
+Solution
+
+*src\us\util\LoadUtil - this Class with the method loadInfoFromFile allow to load the coordenates of the mines from a file 
+*src\us\model\MineSeeker - main class of the solution, you need to create an instance of this class in following way
+
+    ArrayList<Integer> myList = new ArrayList<Integer>();
+		// loading the information from file
+		myList = LoadUtil.loadInfoFromFile("src/mines.txt");
+		MineSeeker seek = new MineSeeker();
+		seek.calculateMaximumExplosion(myList);
+    
+ *src\us\test - this package contains the unit tests
+ *src\us\model\Mine - POJO for Mine Objects
+ 
