@@ -4,7 +4,7 @@ public class Mine implements Comparable<Mine> {
 	private int x;
 	private int y;
 	private int blastRadius;
-	private boolean isExploted;
+	private boolean isExploited;
 	private int power;
 
 	public int getPower() {
@@ -39,12 +39,12 @@ public class Mine implements Comparable<Mine> {
 		this.blastRadius = blastRadius;
 	}
 
-	public boolean isExploted() {
-		return isExploted;
+	public boolean isExploited() {
+		return isExploited;
 	}
 
-	public void setExploted(boolean isExploted) {
-		this.isExploted = isExploted;
+	public void setExploited(boolean isExploited) {
+		this.isExploited = isExploited;
 	}
 
 	/*
