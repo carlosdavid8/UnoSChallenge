@@ -26,7 +26,7 @@ public class MineSeeker {
 			mine.setX(list.get(i));
 			mine.setY(list.get(i + 1));
 			mine.setBlastRadius(list.get(i + 2));
-			mine.setExploted(false);
+			mine.setExploited(false);
 			mineList.add(mine);
 		}
 
@@ -60,7 +60,7 @@ public class MineSeeker {
 
 		for (int i = 0; i < m.size(); i++) {
 
-			if (m.get(i).isExploted())
+			if (m.get(i).isExploited())
 				continue;
 
 			if (e.mine_exploded((float) pivot.getX(), (float) pivot.getY(), (float) pivot.getBlastRadius(),
@@ -77,7 +77,7 @@ public class MineSeeker {
 
 				max++;
 
-				m.get(i).setExploted(true);
+				m.get(i).setExploited(true);
 
 			}
 		}
