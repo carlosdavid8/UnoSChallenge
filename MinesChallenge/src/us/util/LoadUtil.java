@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class LoadUtil {
 
-	public ArrayList<Integer> loadInfoFromFile(String fName) throws IOException {
+	public static ArrayList<Integer> loadInfoFromFile(String fName) throws IOException {
 
 		File file = new File(fName); // file name
 		ArrayList<Integer> l = new ArrayList<Integer>();
